@@ -9992,7 +9992,10 @@ p {
 }
 
 .page-section {
-  padding: 6rem 0;
+  /* padding: 6rem 0; */
+  background-color: #fff;
+  color: #000;
+
 }
 .page-section h2.section-heading {
   font-size: 2.5rem;
@@ -10469,11 +10472,24 @@ header.masthead .masthead-heading .f2 {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #fff;
+  color: #000;
+  /* background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
 }
+
+section#contact .sub-titulo{
+  font-size: 19px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+
+section#contact img{
+width: 40%;
+height: auto;
+}
+
 section#contact .section-heading {
   color: #fff;
 }
@@ -10482,7 +10498,7 @@ section#contact form#contactForm .form-group {
 }
 section#contact form#contactForm .form-group input,
 section#contact form#contactForm .form-group textarea {
-  padding: 1.25rem;
+  padding: 12px;
 }
 section#contact form#contactForm .form-group input.form-control {
   height: auto;
@@ -10524,10 +10540,32 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .footer {
   text-align: center;
-  font-size: 0.9rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-size: 0.9rem; */
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 }
 
+.footer .text-footer {
+  font-family: "Ano Bold Regular";
+  font-size: 16px;
+}
+
+
+input[type=text], input[type=email], input[type=tel] {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+   border-radius: 20px;
+   border: 2px solid #000;
+   color: #a0d18c;
+   width: 370px;
+   height: 30px;
+   padding-left: 10px;
+  }
+  
+input[type=text]:focus {
+   outline: none;
+   border: 1px solid #a0d18c;
+   color: #2d9fd9;
+}
 
 
 /*  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  */
@@ -10535,6 +10573,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 @font-face {
   font-family: "Extenda 20 Micro";
   src: url("../fonts/extenda/Extenda\ 20\ Micro.otf");
+}
+
+@font-face {
+  font-family: "Extenda 30 Deca";
+  src: url("../fonts/extenda/Extenda\ 30\ Deca.otf");
 }
 
 @font-face {
@@ -10550,6 +10593,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 @font-face {
   font-family: "Ano Regular";
   src: url("../fonts/packot/AnoRegular-Regular.otf");
+}
+
+@font-face {
+  font-family: "Ano Bold Regular";
+  src: url("../fonts/packot/AnoBold-Regular.otf");
 }
 /*  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  */
 
@@ -10577,7 +10625,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
   border: 1px solid #000 ;
   border-radius: 0.25rem ;
+  font-family: "Extenda 30 Deca";
+  font-size: 150px;
 }
+
 
 #nuestro-proyecto .rec2{
   background-color: #fe4236;
@@ -10618,4 +10669,22 @@ section#contact form#contactForm :-ms-input-placeholder {
   max-width: 640px;
   height: auto;
 }
+
+
+#recomendacion {
+  background-color: #000;
+  color: #fff;
+}
+
+#recomendacion .sub-titulo{
+  font-size: 19px;
+}
+
+#portfolio .texto {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  text-align: center;
+}
+
 
