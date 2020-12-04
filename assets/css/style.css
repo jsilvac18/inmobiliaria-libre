@@ -10571,6 +10571,11 @@ input[type=text]:focus {
 /*  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  */
 
 @font-face {
+  font-family: "Extenda 15 Nano";
+  src: url("../fonts/extenda/Extenda\ 15\ Nano.otf");
+}
+
+@font-face {
   font-family: "Extenda 20 Micro";
   src: url("../fonts/extenda/Extenda\ 20\ Micro.otf");
 }
@@ -10599,6 +10604,12 @@ input[type=text]:focus {
   font-family: "Ano Bold Regular";
   src: url("../fonts/packot/AnoBold-Regular.otf");
 }
+
+
+@font-face {
+  font-family: "TT Nooks Script Black";
+  src: url("../fonts/nooks/TT\ Nooks\ Script\ Black.otf");
+}
 /*  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  **  */
 
 .header-titulo4 {
@@ -10621,29 +10632,63 @@ input[type=text]:focus {
 
 #nuestro-proyecto .rec1{
   background-color: #3690ff;
-  height: 200px;
+  height: 181px;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
   border: 1px solid #000 ;
   border-radius: 0.25rem ;
+}
+
+
+#nuestro-proyecto .rec1 .rec1-titulo{
   font-family: "Extenda 30 Deca";
   font-size: 150px;
+}
+
+#nuestro-proyecto img{
+  width: 105%;
+  height: auto;
 }
 
 
 #nuestro-proyecto .rec2{
   background-color: #fe4236;
-  height: 200px;
+  height: 181px;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: right;
   border: 1px solid #000 ;
   border-radius: 0.25rem ;
 }
 
+#nuestro-proyecto .rec2 .rec2-titulo{
+  font-family: "Extenda 15 Nano";
+  font-size: 150px;
+}
+
+#nuestro-proyecto .rec2 .rec2-titulo2{
+  font-family: "Extenda 100 Yotta";
+  font-size: 150px;
+}
+
+
 #nuestro-proyecto .rec3{
   background-color: #ff53e1;
-  height: 200px;
+  height: 145px;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
   border: 1px solid #000 ;
   border-radius: 0.25rem ;
+}
+
+#nuestro-proyecto .rec3 .rec3-titulo{
+  font-family: "TT Nooks Script Black";
+  font-size: 95px;
 }
 
 
